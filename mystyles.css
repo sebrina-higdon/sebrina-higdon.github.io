@@ -1,0 +1,118 @@
+/* CSS Document */
+header {
+	border: none;
+}
+body {
+    font-size: 14;
+    background-color: beige;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    line-height: 2em;
+}
+body,td,th {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+}
+main {
+    align: center;
+    font-size: large;
+}
+h1 {
+    font-size: x-large;
+    color: #006400;
+	align: center;
+}
+h2 {
+    font-size: large;
+    color: #006400;
+}
+h3 {
+    font-size: medium;
+    color: #000000;
+}
+table chart-day {
+	margin-left: 10px;
+    vertical-align: center;
+    font-size: large;
+}
+table chart-time {
+    vertical-align: left;
+	margin-left: 10px;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+}
+tr td h3 {
+    text-align: center;
+	vertical-align: center;
+    font-size: large;
+}
+tbody tr td th {
+    text-align: center;
+    vertical-align: center;
+    font-size: large;
+}
+h4 {
+    font-size: small;
+    color: #000000;
+}
+nav {
+	background-color: darkgreen;
+}
+nav a {
+    font-size: 18px;
+    color: #F5F5DC;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 50px;
+}
+footer {
+    font-color: beige;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background-color: darkgreen;
+    color: #FFFFFF;
+}
+footer p a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header img {
+    width: 25%;
+    height: auto;
+    left: auto;
+    padding-right: 30px;
+}
+main p img {
+	align: center;
+    height: 125px;
+    width: auto;
+}
+main p a {
+    text-decoration: none;
+}
+tr th img {
+    width: auto;
+    padding-bottom: 10px;
+    padding-left: 0%;
+    padding-top: 10px;
+    height: 200px;
+}
+#logo {
+	max-width: 500px;
+	align: center;
+    margin-top: 15px;
+}
+gallery img    {
+    max-height: 750px;
+}
