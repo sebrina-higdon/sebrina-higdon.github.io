@@ -126,9 +126,16 @@ tr th img {
     width: 100%;
     height: auto;
 }
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 4800px) {
     container1 {
-      display: grid;
-      grid-template-columns: 1fr;
+      display: block;
+    }
+    .artwork (
+        width: 80%;
+    )
+  }
+  @media screen and (max-width: 480px) {
+    background {
+      color: blue;
     }
   }
