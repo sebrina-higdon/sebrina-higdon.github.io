@@ -34,12 +34,16 @@ h3 {
     font-size: medium;
     color: #000000;
 }
-table chart-day {
+table {
+    margin: 0 20%;
+    border: 1px;
+}
+table .chart-day {
 	margin-left: 10px;
     vertical-align: center;
     font-size: large;
 }
-table chart-time {
+table .chart-time {
     vertical-align: left;
 	margin-left: 10px;
     font-size: large;
