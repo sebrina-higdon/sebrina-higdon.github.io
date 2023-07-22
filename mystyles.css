@@ -117,25 +117,21 @@ tr th img {
     max-height: 750px;
 }
 .container1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5%;
     margin-top: 35px;
 }
 .artwork {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
-@media screen and (min-width: 4800px) {
-    container1 {
-      display: block;
+@media screen and (min-width: 480px) {
+    .container1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5%;
+        margin-top: 35px;
     }
-    .artwork (
-        width: 80%;
-    )
-  }
-  @media screen and (max-width: 480px) {
-    background {
-      color: blue;
+    .artwork {
+        width: 100%;
+        height: auto;
     }
-  }
+}
