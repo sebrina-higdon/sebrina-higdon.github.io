@@ -113,6 +113,22 @@ tr th img {
 	align: center;
     margin-top: 15px;
 }
-gallery img    {
+.gallery img    {
     max-height: 750px;
 }
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    margin-top: 35px;
+}
+.artwork {
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 360px) {
+    container1 {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
