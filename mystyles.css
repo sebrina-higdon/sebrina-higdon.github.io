@@ -23,6 +23,7 @@ main {
 }
 h1 {
     font-size: x-large;
+    line-height: 1.3em;
     color: #006400;
 	align: center;
 }
@@ -68,28 +69,29 @@ nav {
 	background-color: darkgreen;
 }
 nav a {
-    font-size: 18px;
+    font-size: 12px;
     color: beige;
     text-decoration: none;
-    padding-top: 50px;
     padding-right: 5px;
     padding-left: 5px;
-    padding-bottom: 50px;
 }
 footer {
-    color: beige;
-    text-align: center;
-    text-decoration: none;
+    margin-top: 15px;
     padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
     background-color: darkgreen;
 }
-footer p a {
+footer p {
     color: beige;
+    text-align: center;
+    line-height: 1.5em;
+}
+footer a {
+    color: beige;
+    text-align: center;
     text-decoration: none;
-    line-height: .8em;
 }
 header img {
     width: 25%;
@@ -105,16 +107,55 @@ main p img {
 main p a {
     text-decoration: none;
 }
+fieldset {
+    display: grid;
+    margin: 20px 0;
+    border: none;
+}
+input,
+textarea {
+    margin: 10px 0 20px 0;
+}
+label {
+    margin-top: 10px;
+    text-align: left;
+}
+table {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+	border-width: .6px;
+	border: solid;
+	border-color: darkgreen;	
+}
+caption {
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 5px;
+}
+table, th, tr, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+th, td {
+	border-width: .6px;
+	border: solid;
+	border-color: darkgreen;
+}
+td {
+	text-align: center;
+}
 tr th img {
-    width: auto;
+    width: 200px;
     padding-bottom: 10px;
     padding-left: 0%;
     padding-top: 10px;
     height: 200px;
 }
 #logo {
-	max-width: 500px;
-	align: center;
+    width: 70%;
+    height: auto;
     margin-top: 15px;
 }
 .gallery img    {
@@ -124,18 +165,60 @@ tr th img {
     margin-top: 35px;
 }
 .artwork {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
-@media screen and (min-width: 480px) {
+.headshot {
+    width: 70%;
+    height: auto;
+}
+@media screen and (min-width: 360px) {
     .container1 {
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+        grid-gap: 10%;
+        margin-top: 35px;
+        font-size: 14px;
+        line-height: 1.2em;
+    }
+    .headshot {
+        width: 80%;
+        height: auto;
+    }
+    .container2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 5%;
         margin-top: 35px;
     }
     .artwork {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
+    form {
+        display: grid;
+        margin: 20px 10% 20px 10%;
+        border: none;
+    }
+    #logo {
+        max-width: 200px;
+        align: center;
+        margin-top: 15px;
+    }
+    nav a {
+        font-size: 18px;
+        color: beige;
+        text-decoration: none;
+        padding-top: 50px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 50px;
+    }
+    footer p {
+        line-height: 1em;
+    }
+    table {
+        width: 50%;
+    }
+
 }

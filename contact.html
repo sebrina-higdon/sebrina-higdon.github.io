@@ -17,72 +17,104 @@
 			</nav>
 		</header>
 
-<main>
-  <h1>Contact us today to get started on your next design!</h1>
-  <p>
-    <label for="textfield">Name:</label>
-    <input name="textfield" type="text" id="textfield" autocomplete="on">
-  </p>
-  <p>
-    <label for="textfield3">Email:</label>
-    <input type="text" name="textfield2" id="textfield3">
-</p>
-  <p>
-    <label for="textfield4">Phone:</label>
-    <input type="text" name="textfield3" id="textfield4">
-</p>
-  <p>
-    <label for="textfield5">Message:</label>
-    <input type="text" name="textfield4" id="textfield5">
-  </p>
-  <table>
-    <caption>
-    <h2>Hours</h2></caption>
-    <tbody>
-      <tr>
-        <th height="40" scope="col">Day</th>
-        <th scope="col">Open</th>
-        <th scope="col">Close</th>
-      </tr>
-      <tr>
-        <th class="chart-day" height="40" scope="col">Monday</td>
-        <td class="chart-time">9:00 a.m.</td>
-	    <td class="chart-time">5:00 p.m.</td>
-      </tr>
-      <tr>
-        <th class="chart-day" height="40" scope="col">Tuesday</td>
-        <td class="chart-time">9:00 a.m.</td>
-	    <td class="chart-time">5:00 p.m.</td>
-      </tr>
-      <tr>
-        <th class="chart-day" height="40" scope="col">Wednesday</td>
-        <td class="chart-time">10:00 a.m.</td>
-	    <td class="chart-time">8:00 p.m.</td>
-      </tr>
-	      <tr>
-        <th class="chart-day" height="40" scope="col">Thursday</td>
-        <td class="chart-time">9:00 a.m.</td>
-	    <td class="chart-time">5:00 p.m.</td>
-      </tr>
-      <tr>
-        <th class="chart-day" height="40" scope="col">Friday</td>
-        <td class="chart-time">9:00 a.m.</td>
-	    <td class="chart-time">5:00 p.m.</td>
-      </tr>
-      <tr>
-        <th class="chart-day" height="40" scope="col">Saturday/Sunday</td>
-        <td class="chart-time">Closed</td>
-	    <td class="chart-time">&nbsp;</td>
-      </tr><br>
-    </tbody>
-  </table>
-</main>
-<footer>
-  <p>
-    Shelby, North Carolina | 704-555-1212 | <a href="mailto:shigdon@my.waketech.edu">shigdon@my.waketech.edu</a>	
-    | &copy; 2023 Sebrina Higdon Graphic Design. All right reserved. 
-  </p>
-</footer>
+    <main>
+      <h1>Contact us today to get started on your next design!</h1>
 
-</body>
+      <form>
+
+        <!-- Contact Form </-->        
+        <fieldset>
+
+          <!-- first name </-->
+          <label for="fName">First Name</label>
+          <input type="text" name="fName" id="fName">
+
+          <!-- last name </-->          
+          <label for="lName">Last Name</label>
+          <input type="text" name="lName" id="lName">
+
+          <!-- email address </-->          
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email">
+
+          <!-- phone </-->          
+          <label for="phone">Telephone Number</label>
+          <input type="tel" name="phone" id="phone">
+
+          <!-- message for them to fill in </-->          
+          <label for="message">Please give a brief description of your project.</label>
+          <textarea id="message" name="message" rows="10" cols="30"></textarea>
+
+          <button type="submit" class="info-btn" formaction="thanks.html">Submit</button>
+
+        </fieldset>
+
+      </form>
+
+      <table>
+
+        <caption>
+          Hours
+        </caption>
+
+        <tr>
+            <th>Day</th>
+            <th>Open</th>
+            <th>Close</th>
+        </tr>
+
+        <tr>
+            <th>Sunday</th>
+            <td>Closed</td>
+            <td>Closed</td>
+        </tr>
+
+        <tr>
+            <th>Monday</th>
+            <td>8:00</td>
+            <td>5:00</td>
+        </tr>
+
+        <tr>
+          <th>Tuesday</th>
+          <td>8:00</td>
+          <td>5:00</td>
+        </tr>
+
+        <tr>
+          <th>Wednesday</th>
+          <td>8:00</td>
+          <td>5:00</td>
+        </tr>
+
+        <tr>
+          <th>Thursday</th>
+          <td>8:00</td>
+          <td>5:00</td>
+        </tr>
+
+        <tr>
+          <th>Friday</th>
+          <td>1:00</td>
+          <td>5:00</td>
+        </tr>
+
+        <tr>
+          <th>Saturday</th>
+          <td>9:00</td>
+          <td>1:00</td>
+        </tr>
+
+      </table>
+
+    </main>
+
+    <footer>
+
+      <p>Shelby, North Carolina | 704-555-1212 | <a href="mailto:shigdon@my.waketech.edu">shigdon@my.waketech.edu</a></p>
+      <p>&copy; 2023 Sebrina Higdon Graphic Design. All right reserved.</p>
+    
+    </footer>
+
+  </body>
 </html>
